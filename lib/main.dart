@@ -20,7 +20,8 @@ class MyApp extends StatelessWidget {
         ),
       ],
       child: MaterialApp(
-        title: 'Flutter Demo',
+        debugShowCheckedModeBanner: false,
+        title: 'Pomodoro',
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
